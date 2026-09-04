@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>yn</title>
     <style>
-        /* FUNDO E TEXTO */
+        /* FUNDO DA PÁGINA — BRANCO */
         body {
-            background-color: #000000;
-            color: #ffffff;
+            background-color: #ffffff;
+            color: #000000;
             font-family: "Courier New", Courier, monospace;
             margin: 0;
             padding: 40px 20px;
             line-height: 1.8;
         }
 
-        /* JANELA ESTILO WINDOWS 98 */
+        /* JANELA — CINZA CLÁSSICO DO WINDOWS 98 */
         .janela {
             border: 2px solid;
             border-color: #ffffff #808080 #808080 #ffffff;
-            background-color: #000000;
+            background-color: #c0c0c0;
             max-width: 620px;
             margin: 0 auto;
             padding: 0;
@@ -29,9 +29,10 @@
         /* BARRA DE TÍTULO */
         .barra-titulo {
             background: linear-gradient(90deg, #000080, #1084d0);
-            color: white;
+            color: #ffffff;
             padding: 4px 6px;
             font-size: 14px;
+            font-weight: bold;
         }
 
         /* CONTEÚDO DA JANELA */
@@ -39,7 +40,7 @@
             padding: 30px 25px;
         }
 
-        /* FOTO DE PERFIL — ARREDONDADA */
+        /* FOTO ARREDONDADA */
         .foto {
             text-align: center;
             margin-bottom: 30px;
@@ -48,13 +49,14 @@
             width: 120px;
             height: 120px;
             border-radius: 50%;
-            border: 3px solid #ffffff;
+            border: 2px solid #808080;
             object-fit: cover;
+            box-shadow: 2px 2px 0 #888888;
         }
 
-        /* TÍTULO — TUDO MINÚSCULO, DESTAQUE BRANCO */
+        /* TÍTULO — TUDO MINÚSCULO, PRETO */
         h1 {
-            color: #ffffff;
+            color: #000000;
             font-size: 42px;
             text-align: center;
             margin: 0 0 30px 0;
@@ -65,18 +67,18 @@
 
         /* TEXTO PRINCIPAL — JUSTIFICADO */
         .texto-principal {
-            color: #ffffff;
-            font-size: 16px;
+            color: #000000;
+            font-size: 15px;
             text-align: justify;
-            border-top: 1px solid #333;
-            border-bottom: 1px solid #333;
-            padding: 25px 15px;
+            border-top: 1px solid #808080;
+            border-bottom: 1px solid #808080;
+            padding: 20px 15px;
             margin-bottom: 25px;
         }
 
         /* PROMPT DE COMANDO WINDOWS 98 */
         .prompt {
-            background-color: #000000;
+            background-color: #c0c0c0;
             border: 2px solid;
             border-color: #808080 #ffffff #ffffff #808080;
             padding: 18px 20px;
@@ -84,12 +86,13 @@
         }
 
         .prompt-linha {
-            color: #ffffff;
-            font-size: 15px;
+            color: #000000;
+            font-size: 14px;
         }
 
-        .prompt-cursor {
-            color: #ffffff;
+        /* CURSOR PISCANDO — PRETO */
+        .cursor {
+            color: #000000;
             font-weight: bold;
             animation: piscar 0.8s infinite;
         }
@@ -119,9 +122,9 @@
                 En algún momento de tu vida vas a estar descargando discografías en uTorrent de Slayer y tu novia va a estar acostada en tu cama escuchando "Be Good to Me" de Ashley Tisdale en su mp4 usando tus audífonos. Y es extremadamente importante que NO te saltes esa etapa.
             </div>
 
-            <!-- PROMPT DE COMANDO — FRASE ESPECIAL SENDO DIGITADA -->
+            <!-- PROMPT DE COMANDO — FRASE ESPECIAL -->
             <div class="prompt">
-                <div class="prompt-linha">C:\yn&gt; Scientist Metaphysics-Robotics, Languages, Analysis.<span class="prompt-cursor">_</span></div>
+                <div class="prompt-linha">C:\yn&gt; Scientist Metaphysics-Robotics, Languages, Analysis.<span class="cursor">_</span></div>
             </div>
 
         </div>
